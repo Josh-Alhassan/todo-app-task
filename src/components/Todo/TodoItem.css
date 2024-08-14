@@ -1,0 +1,31 @@
+.todo-item {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.todo-item:hover {
+  background-color: #f1f1f1;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.todo-item-text {
+  flex-grow: 1;
+}
+
+.todo-item-toggle {
+  margin-left: 10px;
+  color: #28a745;
+  font-size: 18px;
+}
